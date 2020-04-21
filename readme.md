@@ -4,7 +4,7 @@
 
 Serverless API to parse and validate and parse a Swedish personal identity numbers. Built for [OpenFaaS](https://www.openfaas.com/).
 
-## docs
+## Docs
 
 ```json
 POST /parse
