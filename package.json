@@ -1,0 +1,13 @@
+{
+  "name": "@personnummer/api",
+  "version": "1.0.0",
+  "description": "The Personnummer API",
+  "main": "src/handler.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Personnummer and Contributors <hello@personnummer.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "personnummer": "^3.0.2"
+  }
+}
