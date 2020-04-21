@@ -14,19 +14,19 @@ POST /parse
 
 {
   "data": {
-		"valid": true,
-		"age": 34,
-		"female": true,
-		"male": false,
-		"coordination_number": false,
-		"century": "19",
-		"fullYear": "1985",
-		"year": "85",
-		"month": "07",
-		"day": "09",
-		"sep": "-",
-		"num": "980",
-		"check": "5",
+    "valid": true,
+    "age": 34,
+    "female": true,
+    "male": false,
+    "coordination_number": false,
+    "century": "19",
+    "full_year": "1985",
+    "year": "85",
+    "month": "07",
+    "day": "09",
+    "sep": "-",
+    "num": "980",
+    "check": "5",
     "format_long": "198507099805",
     "format_short": "850709-9805"
   }
