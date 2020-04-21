@@ -33,12 +33,13 @@ const classToObject = (theClass) => {
 };
 
 module.exports = (event, context) => {
+  const pin = event.body.ssn || event.body.pin;
   let resBody = baseResBody;
 
   switch (event.path) {
     case '/parse':
       try {
-        const p = personnummer.parse(event.body.ssn);
+        const p = personnummer.parse(pin);
 
         resBody.data = Object.assign(
           {
@@ -63,7 +64,7 @@ module.exports = (event, context) => {
     case '/validate':
       resBody = Object.assign(baseResBody, {
         data: {
-          valid: personnummer.valid(event.body.ssn),
+          valid: personnummer.valid(pin),
         },
       });
       break;

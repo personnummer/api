@@ -9,7 +9,7 @@ Serverless API to parse and validate and parse a Swedish personal identity numbe
 ```json
 POST /parse
 {
-  "ssn": "198507099805"
+  "pin": "198507099805"
 }
 
 {
@@ -36,7 +36,7 @@ POST /parse
 ```json
 POST /validate
 {
-  "ssn": "198507099805"
+  "pin": "198507099805"
 }
 
 {
