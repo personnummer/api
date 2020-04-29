@@ -11,3 +11,11 @@ jobs:
         docker-username: ${{ secrets.DOCKER_USERNAME }}
         docker-password: ${{ secrets.DOCKER_PASSWORD }}
         deploy: false
+        # Whether the built image shall be deployed (false=no, true=yes)
+        # deploy: ${{ github.ref == 'refs/heads/master' }}
+        # OpenFaaS gateway URL (http(s)://my-public-gateway.tld)
+        # openfaas-gateway: ${{ secrets.OPENFAAS_GATEWAY }}
+        # User for authenticating at OpenFaaS gateway
+        # openfaas-username: ${{ secrets.OPENFAAS_USERNAME }}
+        # Password for authenticating at OpenFaaS gateway
+        # openfaas-password: ${{ secrets.OPENFAAS_PASSWORD }}
