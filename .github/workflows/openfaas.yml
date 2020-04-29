@@ -7,7 +7,6 @@ jobs:
     - uses: actions/checkout@master
     - uses: mrsimpson/action-openfaas-build@master
       with:
-        tag: latest
         stack-file: api.yml
         docker-username: ${{ secrets.DOCKER_USERNAME }}
         docker-password: ${{ secrets.DOCKER_PASSWORD }}
