@@ -8,6 +8,6 @@
   "author": "Personnummer and Contributors <hello@personnummer.dev>",
   "license": "MIT",
   "dependencies": {
-    "personnummer": "^3.0.2"
+    "personnummer": "^3.1.0"
   }
 }
